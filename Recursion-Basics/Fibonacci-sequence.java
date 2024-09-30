@@ -27,3 +27,14 @@ public class Fibonacci{
     Fibonacci of 10 is: 0 1 1 2 3 5 8 13 21 34 
     */
 }
+
+//By memoisation method
+int memo[]=new int[1000];
+private funmemo(int n){
+  if(n<=1){
+  return n;}
+if(memo[n]!=-1){
+  return memo[n];}
+memo[n]=funmemo[n-1]+funmemo[n-2];
+return memo[n];
+}
