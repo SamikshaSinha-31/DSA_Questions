@@ -1,5 +1,5 @@
 /*Description: To find the sum of digits of a number
-  Time complexity:O(logn)
+  Time complexity:O(logn) where n is the given number
   */
 package com.dsa;
 public class sum_of_digits{
@@ -23,7 +23,7 @@ public class sum_of_digits{
 
 /*Sample input:
   n=123
-  Sample output:
+  Output:
   Sum of digits of 123 is 6
   */
 
