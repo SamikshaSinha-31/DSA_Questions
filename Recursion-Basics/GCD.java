@@ -3,7 +3,7 @@
   */
 package com.dsa;
 public class Gcd{
-  //function call
+  //function starts
   private int gcd(int a,int b){
     //base case
     if(b==0){
