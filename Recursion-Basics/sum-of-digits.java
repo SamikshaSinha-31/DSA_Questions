@@ -3,7 +3,7 @@
   */
 package com.dsa;
 public class sum_of_digits{
-//function call
+//function starts
   private int sum(int n){
     //base case
     if(n==0){
