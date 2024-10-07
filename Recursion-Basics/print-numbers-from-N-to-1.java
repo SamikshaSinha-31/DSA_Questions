@@ -4,7 +4,7 @@ package com.dsa;
   Time Complexity: O(N) where N is the given number.
   */
 public class Print{
-  //calling function
+  //function starts
 private static void printNTo1(int N){
   if(N>0){
     //recursive call
