@@ -4,7 +4,7 @@ package com.dsa;
   Time Complexity: O(N) where N is the given number.
   */
 public class SumOfN{
-  //calling function
+  //function starts
 private static int sum(int N){
   //base case
   if(N==0 || N==1){
