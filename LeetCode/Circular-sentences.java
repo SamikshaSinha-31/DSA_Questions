@@ -38,13 +38,13 @@ class Solution {
         }
         return true;
     }
-}
+
 
 public static void main(String[]args){
   String str="leetcode exercises sound delightful";
   System.out.println(isCircularSentence(String sentence));
 }
-
+)
 /* Sample input: 
 str="leetcode exercises sound delightful"
 
